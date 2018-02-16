@@ -11,7 +11,7 @@ RUN mvn package
 
 # --> RUN
 FROM openjdk:8-jre-alpine
-LABEL autor = "Jose Luis Zamora Sanchez"
+LABEL autor = "Pepito Perez"
 EXPOSE 8080 9990
 WORKDIR /opt
 RUN wget http://download.jboss.org/wildfly/10.1.0.Final/wildfly-10.1.0.Final.zip && \
